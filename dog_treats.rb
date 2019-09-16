@@ -1,4 +1,4 @@
-def dog(array)
+def dog_treats(array)
 
   treats = []
 
