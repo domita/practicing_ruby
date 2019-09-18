@@ -26,6 +26,6 @@ def array_average(array)
   average = array.inject(:+).to_f/array.count
 end
 
-
+# Task description: https://tausiq.wordpress.com/2009/08/23/average-word-value/
 
 

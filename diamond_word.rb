@@ -22,3 +22,4 @@ def diamond_word(string)
   nil
 end
 
+# Task descripiton: https://tausiq.wordpress.com/2009/09/27/diamond-word/

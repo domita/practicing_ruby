@@ -40,4 +40,4 @@ def rock_paper_scissors(string)
 
 end
 
-
+# Task description: https://tausiq.wordpress.com/2009/09/19/rock-paper-and-scissors-tournament/
