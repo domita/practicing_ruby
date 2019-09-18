@@ -14,7 +14,7 @@ def diamond_word(string)
     output.unshift(string)
   end
 
-  output.each_with_index do |x, index|
+  output.each do |x|
     substring = ' ' * ((length - x.length)/2)
     puts substring + x + substring
   end
