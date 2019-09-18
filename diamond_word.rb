@@ -3,9 +3,9 @@ def diamond_word(string)
   length = string.length
 
   if length % 2 == 0
-    n = (string.length - 2)/2
+    n = (length - 2)/2
   else
-    n = (string.length - 1)/2
+    n = (length - 1)/2
   end
 
   n.times do
