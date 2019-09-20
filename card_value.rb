@@ -25,9 +25,9 @@ def card_value(string)
   array  = array.join.split('')
 
   status.push(1) if array.include?('C')
-  status.push(1) array.include?('D')
+  status.push(1) if array.include?('D')
   status.push(1) if array.include?('H')
-  status.push(1) array.include?('S')
+  status.push(1) if array.include?('S')
 
   total_status = status.inject(:+)
 
