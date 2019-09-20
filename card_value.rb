@@ -8,7 +8,7 @@ def card_value(string)
   }
 
   array = string.split.map do |x|
-    if dictionary[x[0]] != nil
+    if dictionary[x[0]]
       dictionary[x[0]] + x[1]
     else
       x
@@ -24,31 +24,15 @@ def card_value(string)
   status = []
   array  = array.join.split('')
 
-  if array.include?('C')
-    status.push(1)
-  end
-
-  if array.include?('D')
-    status.push(1)
-  end
-
-  if array.include?('H')
-    status.push(1)
-  end
-
-  if array.include?('S')
-    status.push(1)
-  end
+  status.push(1) if array.include?('C')
+  status.push(1) array.include?('D')
+  status.push(1) if array.include?('H')
+  status.push(1) array.include?('S')
 
   total_status = status.inject(:+)
 
-  if total_status == 2
-    sum += 10
-  end
-
-  if total_status == 1
-    sum += 25
-  end
+  sum += 10 if total_status == 2
+  sum += 25 if total_status == 1
 
   sum
 end
