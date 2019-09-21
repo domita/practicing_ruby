@@ -24,4 +24,11 @@ class Person
     end
   end
 
+  def grandchildren
+    children.map(&:children).flatten
+    # children.map do |child|
+    #   child.children
+    # end.flatten
+  end
+
 end
