@@ -10,9 +10,7 @@ def remove_duplicate_elements(array)
     end
   end
 
-  elements
   elements.keys
-
 end
 
 # Task description: https://www.geeksforgeeks.org/remove-duplicate-elements-in-an-array-using-stl-in-c/
