@@ -76,7 +76,7 @@ def exercise12(contact_data, contacts)
 end
 
 # exercise12([["joe@email.com", "123 Main st.", "555-123-4567"],
-#             ["sally@email.com", "404 Not Found Dr.", "123-234-3454"]], {"Joe Smith" => {}, "Sally Johnson" => {}} )
+#             ["sally@email.com", "404 Not Found Dr.", "123-234-3454"]], {"Joe Smith" => {}, "Sally Johnson" => {}})
 
 def exercise13
 
@@ -134,6 +134,5 @@ def exercise16(arr)
 end
 # exercise16(['white snow', 'winter wonderland', 'melting ice',
      # 'slippery sidewalk', 'salted roads', 'white trees'])
-
 
 # Task description: https://launchschool.com/books/ruby/read/intro_exercises
